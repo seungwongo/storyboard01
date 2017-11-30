@@ -40,6 +40,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
+    
+//    func applicationDidFinishLaunching(_ application: UIApplication) {
+//        let statusBar: UIView = UIApplication.shared.value(forKey: "statusBar") as! UIView
+//        if statusBar.responds(to:#selector(setter: UIView.backgroundColor)) {
+//            statusBar.backgroundColor = UIColor.red
+//        }
+//        UIApplication.shared.statusBarStyle = .lightContent
+//    }
 
 
 }
